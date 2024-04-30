@@ -14,6 +14,12 @@
 		F36B4F342BDF893A0034560A /* Saraswati_AssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36B4F332BDF893A0034560A /* Saraswati_AssignmentTests.swift */; };
 		F36B4F3E2BDF893A0034560A /* Saraswati_AssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36B4F3D2BDF893A0034560A /* Saraswati_AssignmentUITests.swift */; };
 		F36B4F402BDF893A0034560A /* Saraswati_AssignmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36B4F3F2BDF893A0034560A /* Saraswati_AssignmentUITestsLaunchTests.swift */; };
+		F36B4F4E2BDF8DFD0034560A /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36B4F4D2BDF8DFC0034560A /* Post.swift */; };
+		F36B4F502BDFAF100034560A /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36B4F4F2BDFAF100034560A /* NetworkManager.swift */; };
+		F36B4F522BDFAF680034560A /* PostListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36B4F512BDFAF680034560A /* PostListViewModel.swift */; };
+		F36B4F542BE0BA7D0034560A /* PostCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36B4F532BE0BA7D0034560A /* PostCardView.swift */; };
+		F36B4F562BE0BAAB0034560A /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36B4F552BE0BAAB0034560A /* ModalView.swift */; };
+		F36B4F582BE0D6530034560A /* CachedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36B4F572BE0D6530034560A /* CachedImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,13 @@
 		F36B4F392BDF893A0034560A /* Saraswati_AssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Saraswati_AssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F36B4F3D2BDF893A0034560A /* Saraswati_AssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Saraswati_AssignmentUITests.swift; sourceTree = "<group>"; };
 		F36B4F3F2BDF893A0034560A /* Saraswati_AssignmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Saraswati_AssignmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F36B4F4C2BDF8A040034560A /* Saraswati-Assignment-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Saraswati-Assignment-Info.plist"; sourceTree = SOURCE_ROOT; };
+		F36B4F4D2BDF8DFC0034560A /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		F36B4F4F2BDFAF100034560A /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		F36B4F512BDFAF680034560A /* PostListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListViewModel.swift; sourceTree = "<group>"; };
+		F36B4F532BE0BA7D0034560A /* PostCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCardView.swift; sourceTree = "<group>"; };
+		F36B4F552BE0BAAB0034560A /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
+		F36B4F572BE0D6530034560A /* CachedImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachedImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +107,17 @@
 		F36B4F212BDF89380034560A /* Saraswati_Assignment */ = {
 			isa = PBXGroup;
 			children = (
+				F36B4F4C2BDF8A040034560A /* Saraswati-Assignment-Info.plist */,
 				F36B4F222BDF89380034560A /* Saraswati_AssignmentApp.swift */,
 				F36B4F242BDF89380034560A /* ContentView.swift */,
 				F36B4F262BDF893A0034560A /* Assets.xcassets */,
 				F36B4F282BDF893A0034560A /* Preview Content */,
+				F36B4F4D2BDF8DFC0034560A /* Post.swift */,
+				F36B4F4F2BDFAF100034560A /* NetworkManager.swift */,
+				F36B4F512BDFAF680034560A /* PostListViewModel.swift */,
+				F36B4F532BE0BA7D0034560A /* PostCardView.swift */,
+				F36B4F552BE0BAAB0034560A /* ModalView.swift */,
+				F36B4F572BE0D6530034560A /* CachedImageView.swift */,
 			);
 			path = Saraswati_Assignment;
 			sourceTree = "<group>";
@@ -257,7 +277,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F36B4F542BE0BA7D0034560A /* PostCardView.swift in Sources */,
+				F36B4F502BDFAF100034560A /* NetworkManager.swift in Sources */,
+				F36B4F4E2BDF8DFD0034560A /* Post.swift in Sources */,
+				F36B4F522BDFAF680034560A /* PostListViewModel.swift in Sources */,
+				F36B4F562BE0BAAB0034560A /* ModalView.swift in Sources */,
 				F36B4F252BDF89380034560A /* ContentView.swift in Sources */,
+				F36B4F582BE0D6530034560A /* CachedImageView.swift in Sources */,
 				F36B4F232BDF89380034560A /* Saraswati_AssignmentApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +450,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Saraswati_Assignment/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Saraswati-Assignment-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -452,6 +479,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Saraswati_Assignment/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Saraswati-Assignment-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
